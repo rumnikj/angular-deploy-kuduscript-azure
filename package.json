@@ -4,14 +4,15 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",    
+    "build": "ng build --prod --aot"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "1.4.1",
+    "@angular/compiler-cli": "^4.2.4",
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
     "@angular/compiler": "^4.2.4",
